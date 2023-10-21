@@ -16,7 +16,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from main import TOKEN
 
 API_TOKEN = TOKEN
-from filt import IsAdminFilter
+from filters import IsAdminFilter
 
 bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot, storage=MemoryStorage())

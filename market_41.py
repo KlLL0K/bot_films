@@ -4,7 +4,7 @@ from aiogram.dispatcher.filters import CommandStart, AdminFilter
 from aiogram.types import ParseMode, BotCommand, BotCommandScopeDefault, InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils import executor
 from main import TOKEN
-from filt import IsAdminFilter
+from filters import IsAdminFilter
 API_TOKEN = TOKEN
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
